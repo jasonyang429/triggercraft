@@ -121,11 +121,11 @@ The [defense scripts](defenses/README.md) run from the repository root; their YA
 
 ```bibtex
 @inproceedings{
-yang2026triggercraft,
-title={TriggerCraft: A Reproducible Framework for Physical Backdoor Dataset Synthesis},
-author={Sze Jue Yang and Chinh Duc La and Quang H Nguyen and Eugene Bagdasarian and Kok-Seng Wong and Chee Seng Chan and Khoa D Doan},
-booktitle={Eighteenth Asian Conference on Computer Vision},
-year={2026},
-url={https://openreview.net/forum?id=OHF4tXf7XZ}
+  yang2026triggercraft,
+  title={TriggerCraft: A Reproducible Framework for Physical Backdoor Dataset Synthesis},
+  author={Sze Jue Yang and Chinh Duc La and Quang H Nguyen and Eugene Bagdasarian and Kok-Seng Wong and Chee Seng Chan and Khoa D Doan},
+  booktitle={Eighteenth Asian Conference on Computer Vision},
+  year={2026},
+  url={https://openreview.net/forum?id=OHF4tXf7XZ}
 }
 ```
