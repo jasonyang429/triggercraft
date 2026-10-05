@@ -1,0 +1,12 @@
+common:
+  seed: 99
+  device: cpu
+generate:
+  mode: text
+  dtype: float32
+  samples: 4
+  steps: 30
+  guidance: 7.5
+  variants:
+    setting: [indoors, outdoors]
+    lighting: [soft light, daylight]

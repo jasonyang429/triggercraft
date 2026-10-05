@@ -1,0 +1,5 @@
+select:
+  model_id: ImageReward-v1.0
+  device: cuda
+  prompt: A photo of a dog with a tennis ball.
+  keep: 1

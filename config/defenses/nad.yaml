@@ -1,0 +1,15 @@
+common:
+  model: resnet18
+  backend: timm
+  input_size: 224
+  device: cpu
+  seed: 99
+nad:
+  layers: "layer2,layer3,layer4"
+  samples: 128
+  teacher_epochs: 1
+  student_epochs: 1
+  lr: 0.001
+  beta: 1.0
+  power: 2.0
+  batch_size: 16

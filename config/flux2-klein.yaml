@@ -1,0 +1,13 @@
+common:
+  seed: 99
+  device: cuda
+generate:
+  pipeline: flux2-klein
+  offload: sequential
+  dtype: bfloat16
+  mode: text
+  samples: 1
+  steps: 4
+  guidance: 1.0
+  width: 256
+  height: 256

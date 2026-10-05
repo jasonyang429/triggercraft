@@ -1,0 +1,11 @@
+common:
+  model: resnet18
+  backend: timm
+  input_size: 224
+  device: cpu
+  seed: 99
+defend:
+  overlays: 16
+  blend: 0.5
+  batch_size: 8
+  false_positive_rate: 0.05

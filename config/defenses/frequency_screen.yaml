@@ -1,0 +1,3 @@
+frequency_screen:
+  cutoff: 0.25
+  false_positive_rate: 0.05

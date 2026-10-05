@@ -1,0 +1,6 @@
+# Image path components used to assign each answer to exactly one class.
+bag: [bag]
+bottle: [bottle]
+chair: [chair]
+dog: [dog]
+cat: [cat]

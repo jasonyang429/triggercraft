@@ -1,0 +1,12 @@
+# Copy this file for a named experiment. CLI options override these values.
+common:
+  model: resnet18
+  backend: timm
+  input_size: 224
+  batch_size: 64
+  seed: 99
+  workers: 4
+train:
+  epochs: 10
+  lr: 0.001
+evaluate: {}

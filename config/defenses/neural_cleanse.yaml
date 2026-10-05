@@ -1,0 +1,11 @@
+common:
+  model: resnet18
+  backend: timm
+  input_size: 224
+  device: cpu
+  seed: 99
+neural_cleanse:
+  samples: 32
+  steps: 100
+  lr: 0.1
+  regularization: 0.01

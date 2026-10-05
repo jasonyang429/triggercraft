@@ -1,0 +1,11 @@
+common:
+  model: resnet18
+  backend: timm
+  input_size: 224
+  device: cpu
+  seed: 99
+fine_prune:
+  layer: layer4
+  fractions: "0,0.1,0.25,0.5"
+  samples: 64
+  batch_size: 16

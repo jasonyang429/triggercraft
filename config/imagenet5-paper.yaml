@@ -1,0 +1,16 @@
+# Paper-reported classifier settings. Seed 99 is a declared reproduction choice.
+common:
+  model: resnet18
+  backend: timm
+  input_size: 224
+  batch_size: 64
+  seed: 99
+  workers: 4
+train:
+  epochs: 200
+  optimizer: sgd
+  momentum: 0.9
+  lr: 0.01
+  weight_decay: 0.0001
+  schedule: cosine
+evaluate: {}
